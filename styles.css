@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0F2830;
+    color: #F8FbFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+#booster-cookie-price,
+#coins-phr {
+    font-size: 60px;
+}
+
+#wage {
+    -webkit-appearance: none;
+    border: none;
+    background-color: #0F2830;
+    height: 75px;
+    font-size: 50px;
+    padding: 0;
+    color: #9aa0a6;
+    width: 665px;
+}
+
+#wage::placeholder {
+    color: #9aa0a6;
+}
+
+#wage:focus {
+    outline: none;
+}
+
+#calculate-coins-phr {
+    height: 75px;
+    font-size: 50px;
+    border: solid #184452 5px;
+    background-color: #0F2830;
+    border-radius: 10px;
+    color: #9aa0a6;
+    padding: 0;
+    width: 230px;
+    transition: 0.15s;
+}
+
+#calculate-coins-phr:hover {
+    background-color: #184452;
+}
+
+.output-container,
+.input-container {
+    width: 900px;
+}
+
+.output-container {
+    margin-bottom: 30px;
+}
